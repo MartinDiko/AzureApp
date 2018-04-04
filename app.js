@@ -68,7 +68,7 @@ app.post('/upload', upload.single('item'), function (req, res) {
 app.post('/del/:bookId', function (req, res) {
   (async function mongo () {
     let client
-    const dbName = 'library'
+    const dbName = 'jwebster-sandbox'
     const url = process.env.URL
     const password = process.env.PASSWORD
     const user = process.env.USER
@@ -101,7 +101,7 @@ app.post('/del/:bookId', function (req, res) {
 
 // create a new record
 app.post('/add', function (req, res) {
-  const dbName = 'library'
+  const dbName = 'jwebster-sandbox'
   const url = process.env.URL
   const password = process.env.PASSWORD
   const user = process.env.USER
@@ -144,7 +144,7 @@ app.post('/add', function (req, res) {
 
 // update one record
 app.post('/edit', function (req, res) {
-  const dbName = 'library'
+  const dbName = 'jwebster-sandbox'
   const url = process.env.URL
   const password = process.env.PASSWORD
   const user = process.env.USER
@@ -192,7 +192,7 @@ app.post('/edit', function (req, res) {
 // view details of one book
 app.get('/details/:itemId', function (req, res) {
   const itemID = req.params.itemId
-  const dbName = 'library'
+  const dbName = 'jwebster-sandbox'
   const url = process.env.URL
   const password = process.env.PASSWORD
   const user = process.env.USER;
@@ -221,7 +221,7 @@ app.get('/details/:itemId', function (req, res) {
 // edit form for single record
 app.get('/edit/:itemId', function (req, res) {
   const itemID = req.params.itemId
-  const dbName = 'library'
+  const dbName = 'jwebster-sandbox'
   const url = process.env.URL
   const password = process.env.PASSWORD
   const user = process.env.USER;

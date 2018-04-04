@@ -46,7 +46,7 @@ block content
                 .item-read
               if (book.bookId && book.imageName !== "")
                 .image-wrapper
-                  // img(src="https://librarystorage.blob.core.windows.net/bookcovers/"+ book.bookId + ".jpg" alt="image: " + book.bookId + ".jpg")
+                  // img(src="https://jwebster-sandboxstorage.blob.core.windows.net/bookcovers/"+ book.bookId + ".jpg" alt="image: " + book.bookId + ".jpg")
                   img(alt="image: " + book.imageName src="/images/" + book.imageName )
               else
                 .image-wrapper.no-image

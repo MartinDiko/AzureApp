@@ -21,9 +21,9 @@
   },
   "nodemonConfig": {
     "env": {
-      "URL": "mongodb://mongo-content-dev.documents.azure.com:10255/?ssl=true&replicaSet=globaldb",
-      "USER": "mongo-content-dev",
-      "PASSWORD": "tqRmCtw7cp51QuygCWYprFItP3hodf7W2W4IVBrhMHBQN3dtxOYoMgVGW32rlOVjr227GL8rXQ1bqREW0l8tYA=="
+      "URL": "mongodb://ds014118.mlab.com:14118/jwebster-sandbox",
+      "USER": "test",
+      "PASSWORD": "welcome"
     }
   }
 }
